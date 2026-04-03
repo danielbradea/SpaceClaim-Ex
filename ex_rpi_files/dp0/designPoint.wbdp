@@ -33,8 +33,8 @@
       <container-type valType="String">Ansys.DesignModeler.Core.Addin:Geometry</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">30132</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 30138, "Input": 30130, "Output": 30130}</last-modified-by-usage>
+      <last-updated valType="Int64">30390</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 30392, "Input": 30388, "Output": 30388}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -87,6 +87,11 @@
       <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 7" Version="1.0">
         <class-type valType="String">SpaceClaimCallBackData</class-type>
         <object-name valType="String">SCDataObject 7</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4f0596d1-028a-4dc0-a3bd-00f5a23c0de7"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 8" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 8</object-name>
         <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4f0596d1-028a-4dc0-a3bd-00f5a23c0de7"}</member-data>
       </Object>
       <Object Name="/Geometry/TransferData:Geometry" Version="1.0">
