@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="25.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">30392</timestamp-max>
+    <timestamp-max valType="Int64">30467</timestamp-max>
     <framework-build-version valType="String">25.2.172.0</framework-build-version>
     <external-version-string valType="String">2025 R2</external-version-string>
-    <last-saved-utc valType="String">04/03/2026 07:00:10</last-saved-utc>
+    <last-saved-utc valType="String">04/06/2026 12:47:34</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -46,7 +46,11 @@
 "e38b0b2a-8f14-4c09-b225-7617c045af9b": "/Schematic/ComponentTemplate:SimulationSolutionCellTemplate_StructuralStaticANSYS",
 "0e43b938-bedb-474e-bd2a-915b2a93a15d": "/Schematic/ComponentTemplate:SimulationResultsCellTemplate_StructuralStaticANSYS",
 "9ed0b89d-1024-495d-a6f4-949b4edfa618": "/FileContainer/FileReference:F7",
-"fead62b6-4cc4-426f-a93d-ed38ccc3fc6e": "/FileContainer/FileReference:F6"
+"fead62b6-4cc4-426f-a93d-ed38ccc3fc6e": "/FileContainer/FileReference:F6",
+"07e7ad72-d913-4c03-9bd3-d977d8012e8e": "/FileContainer/FileReference:F8",
+"dbbec19b-b785-4a7a-ab05-cbd4ed1b366b": "/FileContainer/FileReference:F10",
+"93144e83-b1f1-45ae-98a5-7c2a9f9af4c9": "/FileContainer/FileReference:F9",
+"bd637daa-8bab-45c5-9764-8c904f89a46b": "/FileTypesContainer/FileType:MechanicalFileType"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -439,7 +443,11 @@
 "8cbb4e5e-15cf-42c5-bb46-4e74c6a2da44": "/Engineering Data/EngineeringData:Engineering Data",
 "506489e5-4b36-42c9-bc30-2edb6dba8986": "/Results/SimulationResultsStlZip:SimulationResultsStlZip",
 "196da061-8a66-4753-b537-d8946f3b9e09": "/Results/TopologyOptimizationResultsCDB:TopologyOptimizationResultsCDB",
-"22328b12-0fba-48b4-93a2-5f6c7e44759b": "/Results/ExternalModelOutput:ExternalModelOutput"
+"22328b12-0fba-48b4-93a2-5f6c7e44759b": "/Results/ExternalModelOutput:ExternalModelOutput",
+"cbbc2497-d359-458d-8447-8cfddccb584f": "/Model/MechanicalModel:MechanicalModel",
+"8122756a-3deb-4aa5-83cd-d1e836af6adc": "/Setup/SimulationSetup:SetupObject for Structural|Static|ANSYS",
+"9ee2225d-f7ba-4ddd-ad9d-27e501f1e164": "/Solution/SimulationSolution:SolutionObject for Structural|Static|ANSYS",
+"9ddbdaf8-0fda-47d6-bed9-fe394e9d4761": "/Results/SimulationResults:ResultsObject for Structural|Static|ANSYS"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -472,7 +480,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 30133, "Input": 1500, "Output": 1500}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 30459, "Input": 1500, "Output": 1500}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/FileContainer/FileReference:F6" Version="1.0">
@@ -493,12 +501,27 @@
       <Object Name="/FileContainer/FileReference:F4" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F4</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$629d5c01-3c9a-49bb-ac78-498ccc8781b8, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 6}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$629d5c01-3c9a-49bb-ac78-498ccc8781b8, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 7}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F5" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F5</object-name>
         <member-data valType="String">{"DisplayText": "EngineeringData.xml", "FileType": $$28200651-e34b-4516-b6a6-f6dcf2e9e446, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\ENGD\ENGD\EngineeringData.xml", "ReferenceCount": 8}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F8" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F8</object-name>
+        <member-data valType="String">{"DisplayText": "material.engd", "FileType": $$28200651-e34b-4516-b6a6-f6dcf2e9e446, "DependentFiles": [], "ContainerAssociations": ["Engineering Data"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\ENGD\ENGD\material.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F9" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F9</object-name>
+        <member-data valType="String">{"DisplayText": "SYS.engd", "FileType": $$28200651-e34b-4516-b6a6-f6dcf2e9e446, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS.engd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F10" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F10</object-name>
+        <member-data valType="String">{"DisplayText": "SYS.mechdb", "FileType": $$bd637daa-8bab-45c5-9764-8c904f89a46b, "DependentFiles": [], "ContainerAssociations": ["Model"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\global\MECH\SYS.mechdb", "ReferenceCount": 1}</member-data>
       </Object>
     </Container>
     <Container Name="Messages" Version="1.0">
@@ -538,7 +561,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 29685, "Input": 30160, "Output": 1507}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 30422, "Input": 30414, "Output": 1507}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:Geom" Version="1.0">
